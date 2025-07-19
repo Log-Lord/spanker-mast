@@ -1,0 +1,67 @@
+body {
+  background: #0c0c0c;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url('images/Dystopia-bg.jpg') no-repeat center Center/contain;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.logo {
+  width: 180px;
+  display: block;
+  margin: 0 1rem auto;
+  animation: pulse 2s infinite alternate;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f53;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff9999;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  font-size: 0.9rem;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); opacity: 1; }
+  to   { transform: scale(1.05); opacity: 0.8; }
+}
